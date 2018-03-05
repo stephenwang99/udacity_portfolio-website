@@ -1,0 +1,143 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 12px;
+  color: #424242;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+/*
+ *
+ * Common
+ *
+ */
+
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+    max-height: 85px;
+}
+
+
+
+.logo {
+  height: 80px;
+  margin-right: 0em;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.name,
+.description {
+  font-family: "Fira Sans", sans-serif;
+  display: inline-block;
+  color: #2d3c49;
+  text-transform: uppercase;
+  float: right;
+}
+
+
+/*
+ *
+ * Main
+ *
+ */
+
+main {
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+ hr.style1 {
+   height: 3px;
+   background: #7d97ad;
+ }
+
+
+.featured_img{
+  max-width: 930px;
+}
+
+.featured_works{
+  padding-top: 1em;
+  flex-grow: 1;
+}
+
+.work_title{
+  color: #7d97ad;
+  text-transform: capitalize;
+  text-align: left;
+
+}
+
+.work_items{
+  padding-top: 1em;
+  flex-grow: 1;
+}
+
+
+.item{
+  -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 50px; /* Firefox */
+  column-gap: 50px;
+}
+
+
+.item_pic{
+  height: 250px;
+  width: 290px;
+}
+
+.url_font{
+  font-size: 12px;
+}
+
+.item a {
+  text-decoration: none;
+  padding: 1.5em;
+}
+
+
+/*
+ *
+ * Footer
+ *
+ */
+
+footer {
+  border-top: 1px solid #E0E0E0;
+  padding: 1em;
+  width: 100%;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+  padding: 1.5em;
+}
